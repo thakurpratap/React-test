@@ -1,0 +1,35 @@
+/* .mai-reactangle{
+    display: flex;
+    gap: 20px;
+} */
+.reactangle {
+  height: 100px;
+  width: 100px;
+  /* background: red; */
+  position: absolute;
+}
+.center {
+  background-color: aquamarine;
+  margin-left: 50%;
+  margin-top: 20%;
+}
+.topleft {
+  background-color: yellow;
+  top: 0;
+  left: 0;
+}
+.topright {
+  background-color: orange;
+  top: 0;
+  right: 0;
+}
+.buttomleft {
+  background-color: gray;
+  bottom: 0;
+  left: 0;
+}
+.buttomright {
+  background-color: green;
+  bottom: 0;
+  right: 0;
+}

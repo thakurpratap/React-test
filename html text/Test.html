@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Test.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Create a rectangle centred on the web screen, and create one rectangle at each corner of the web page -->
+    <div class="mai-reactangle">
+<div class="reactangle center"></div>
+ <div class="reactangle topleft"></div>
+ <div class="reactangle topright"></div>
+ <div class="reactangle buttomleft"></div>
+ <div class="reactangle buttomright"></div>
+    </div>
+    
+    <!-- Define any 4 semantic html tags
+    <head></head>
+    <nav></nav>
+    <section></section>
+    <footer></footer>
+    <main></main> -->
+
+    <!-- Create a unordered list and query select all by using javascript and log it -->
+
+    <div class="list">
+        <ul id = 'unorderlist'>
+            <li>Content 1</li>
+            <li>Content 2</li>
+            <li>Content 3</li>
+            <li>Content 4</li>
+        </ul>
+    </div>
+
+    <script>
+        const listitems = document.querySelectorAll('#unorderlist');
+        // console.log(listitems);
+        listitems.forEach(item => console.log(` ${item.textContent}`));
+    </script>
+
+<!-- Create a function to reverse a string  -->
+<script>
+    
+    const reversewords = (str) =>{
+        const r =  str.split('').reverse().join('');
+        console.log(r)
+    }
+    reversewords('pratap singh')
+    // console.log(reversewords)
+ 
+</script>
+
+
+
+</body>
+</html>
+
